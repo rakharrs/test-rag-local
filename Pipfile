@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-text-splitters = "*"
+langchain-huggingface = "*"
+langchain-chroma = "*"
+langchain-ollama = "*"
+chromadb = "*"
+sentence-transformers = "*"
+pymupdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
